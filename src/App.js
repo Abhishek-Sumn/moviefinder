@@ -18,15 +18,17 @@ function App() {
 
         <Header></Header>
 
+        <div className="container">
 
-        <Routes>
+          <Routes>
 
-          <Route path="/" element={<Home />} />
-          <Route path="/movie/:imdbID" componenet={<MovieDetail />} />
-          <Route path="*" element={<PageNotFound />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/movie/:imdbID" componenet={<MovieDetail />} />
+            <Route path="*" element={<PageNotFound />} />
 
-        </Routes>
-
+          </Routes>
+          
+        </div>
 
         <Footer></Footer>
 
