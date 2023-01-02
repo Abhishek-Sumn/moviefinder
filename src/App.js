@@ -22,7 +22,7 @@ function App() {
        
           <Routes>
 
-            <Route path="/" element={<Home />} />
+            <Route path="/moviefinder" element={<Home />} />
             <Route path="/movie/:imdbID" componenet={<MovieDetail />} />
             <Route path="*" element={<PageNotFound />} />
 
