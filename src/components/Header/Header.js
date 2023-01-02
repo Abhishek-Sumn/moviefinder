@@ -9,7 +9,7 @@ const Header = () => {
 
     <div className="header">
 
-      <Link to="/">
+      <Link to="/moviefinder">
         <div className="logo">Movie App</div>
       </Link>
 
