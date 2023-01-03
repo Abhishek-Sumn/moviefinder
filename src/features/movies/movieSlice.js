@@ -15,7 +15,7 @@ export const fetchAsyncShows = createAsyncThunk('movies/fetchAsyncShows', async 
 
     const seriesText = "friends";
     const response = await movieApi
-        .get(`?apikey=${APIKey}&s=${seriesText}&type=show`)
+        .get(`?apikey=${APIKey}&s=${seriesText}&type=series`)
 
     return (response.data);
 })
@@ -42,6 +42,10 @@ const movieSlice = createSlice({
         },
         [fetchAsyncMovies.rejected]: () => {
             console.log('rejected')
+        },
+        [fetchAsyncShows.fulfilled]: (state, { payload }) => {
+            console.log('fulfilled');
+            return { ...state, shows: payload }
         },
     }
 })
