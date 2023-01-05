@@ -1,22 +1,25 @@
 @import "../src/common/colors.scss";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
     color: azure;
 }
 
-body{
-    background-color: $primary-color;
+$main-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(253.4deg, #0072ff -3.22%, #820db6 101.86%);
+
+body {
+    background: $main-bg;
 }
 
-.container{
+.container {
     margin: 0px 40px;
 }

@@ -28,13 +28,16 @@ const Header = () => {
         <Link to="/moviefinder"> Movie App </Link>
       </div>
 
+
       <div className="search-bar">
         <form onSubmit={submitHandler}>
-          <input type="text" value={term} placeholder="Search Movies Or Show"
+          <input type="text" value={term} placeholder="  Search Movies Or Show"
             onChange={(e) => setTerm(e.target.value)} />
           <button type='submit' ><i className='fa fa-search'></i></button>
         </form>
-      </div>
+      </div> 
+     
+
 
       <div className="user-image">
         <img src={user} alt="userimage" />

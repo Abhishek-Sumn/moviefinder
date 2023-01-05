@@ -1,7 +1,8 @@
 @import "../../common/colors.scss";
-
+$main-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  linear-gradient(253.4deg, #0072ff -3.22%, #820db6 101.86%);
 .footer {
-    background-color: $secondary-color;
+    background-color: $main-bg;
     height: 72px;
     display: flex;
     align-items: center;
