@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './features/store';
 import App from './App';
 //2
+//1
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
