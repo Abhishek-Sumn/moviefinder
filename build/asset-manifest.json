@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/moviefinder/static/css/main.b489cab5.css",
+    "main.js": "/moviefinder/static/js/main.587555ca.js",
+    "static/media/user.png": "/moviefinder/static/media/user.b89021c6aad79cb2ff90.png",
+    "index.html": "/moviefinder/index.html",
+    "main.b489cab5.css.map": "/moviefinder/static/css/main.b489cab5.css.map",
+    "main.587555ca.js.map": "/moviefinder/static/js/main.587555ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b489cab5.css",
+    "static/js/main.587555ca.js"
+  ]
+}
