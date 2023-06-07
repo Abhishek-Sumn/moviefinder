@@ -24,7 +24,7 @@ function App() {
 
             <Route path="/moviefinder" element={<Home />} />
             <Route path="/movie/:imdbID" element={<MovieDetail />} />
-            <Route path="" element={<PageNotFound />} />
+            <Route path="" element={<Home />} />
 
           </Routes>
           
